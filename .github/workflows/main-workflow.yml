@@ -18,4 +18,4 @@ jobs:
         cmake --build build
       
     - name: expect failures in run
-      run: bash .github/workflows/expectfail.sh build/strong_tests
+      run: build/strong_tests
