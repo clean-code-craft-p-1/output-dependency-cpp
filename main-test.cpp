@@ -1,12 +1,17 @@
-#include <iostream>
+#include "gtest/gtest.h"
 
 void testTshirtSize();
 void testPrintColorMap();
 void testWeatherReport();
 
-int main() {
+TEST(TShirt, Size) {
     testTshirtSize();
+}
+
+TEST(ColorMap, Print) {
     testPrintColorMap();
+}
+
+TEST(WeatherReport, Report) {
     testWeatherReport();
-    return 0;
 }

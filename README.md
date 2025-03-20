@@ -1,6 +1,6 @@
 # Testing & Dependencies
 
-Decomposition = Making smaller pieces of code - makes testing easier. Just as smaller sentences help us convey our intentions better.
+Decomposition = Making smaller pieces of code - makes testing easier.
 
 Testing = Specifying the output - drives us to decompose better.
 
@@ -12,7 +12,7 @@ This exercise has a set of buggy implementations. The implementations also have 
 
 Your task is to _strengthen the tests_ and make them all fail. You **can refactor** the code to separate the concerns and make it testable. **Do not fix the bug. Do not pass the tests yet**
 
-In this repository, the workflows are designed to make the Action fail when any of the tests pass.
+In this repository, the workflows will fail when any of the tests pass.
 
 ## Hints
 
